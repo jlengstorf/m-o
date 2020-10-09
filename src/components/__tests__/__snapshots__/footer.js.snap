@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer
+  className="footer has-background-black has-text-white-ter"
+>
+  <div
+    className="content has-text-centered"
+  >
+    <a
+      href="/"
+      title="Logo"
+    >
+      <img
+        alt="Mostones-Logo"
+        src="test-file-stub"
+        style={
+          Object {
+            "height": "10em",
+            "width": "14em",
+          }
+        }
+      />
+    </a>
+  </div>
+  <div
+    className="columns is-variable is-8"
+  >
+    <div
+      className="column get-in-touch"
+    >
+      <a
+        href="/contact"
+      >
+        <svg
+          aria-hidden="true"
+          className="get-in-touch-icon"
+          data-fa-i2svg=""
+          data-icon="nfo-circle"
+          data-prefix="fas"
+          role="img"
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"
+            fill="currentColor"
+          />
+        </svg>
+        <h4
+          className="title has-text-centered"
+        >
+          Info
+        </h4>
+      </a>
+    </div>
+    <div
+      className="column get-in-touch"
+    >
+      <a
+        href="/booking"
+      >
+        <svg
+          aria-hidden="true"
+          className="get-in-touch-icon"
+          data-fa-i2svg=""
+          data-icon="calendar-check"
+          data-prefix="fas"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M436 160H12c-6.627 0-12-5.373-12-12v-36c0-26.51 21.49-48 48-48h48V12c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v52h128V12c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v52h48c26.51 0 48 21.49 48 48v36c0 6.627-5.373 12-12 12zM12 192h424c6.627 0 12 5.373 12 12v260c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V204c0-6.627 5.373-12 12-12zm333.296 95.947l-28.169-28.398c-4.667-4.705-12.265-4.736-16.97-.068L194.12 364.665l-45.98-46.352c-4.667-4.705-12.266-4.736-16.971-.068l-28.397 28.17c-4.705 4.667-4.736 12.265-.068 16.97l82.601 83.269c4.667 4.705 12.265 4.736 16.97.068l142.953-141.805c4.705-4.667 4.736-12.265.068-16.97z"
+            fill="currentColor"
+          />
+        </svg>
+        <h4
+          className="title has-text-centered"
+        >
+          Booking
+        </h4>
+      </a>
+    </div>
+    <div
+      className="column get-in-touch"
+    >
+      <a
+        href="/contact"
+      >
+        <svg
+          aria-hidden="true"
+          className="get-in-touch-icon"
+          data-fa-i2svg=""
+          data-icon="newspaper"
+          data-prefix="fas"
+          role="img"
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M552 64H88c-13.255 0-24 10.745-24 24v8H24c-13.255 0-24 10.745-24 24v272c0 30.928 25.072 56 56 56h472c26.51 0 48-21.49 48-48V88c0-13.255-10.745-24-24-24zM56 400a8 8 0 0 1-8-8V144h16v248a8 8 0 0 1-8 8zm236-16H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm-208-96H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm0-96H140c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h360c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12z"
+            fill="currentColor"
+          />
+        </svg>
+        <h4
+          className="title has-text-centered"
+        >
+          Presse
+        </h4>
+      </a>
+    </div>
+  </div>
+  <div
+    className="columns"
+  >
+    <div
+      className="column get-in-touch-social has-text-centered"
+    >
+      <a
+        href="https://www.youtube.com/channel/UCuGgvQhvzrpDY_9-NjVCGPA"
+      >
+        <i
+          class="icon ion-logo-youtube"
+        />
+      </a>
+      <a
+        href="https://www.facebook.com/mosTonesband/"
+      >
+        <img
+          alt="Mostones_on_Facebook"
+          className="social-icon"
+          src="test-file-stub"
+        />
+      </a>
+      <a
+        href="https://www.instagram.com/mostones/"
+      >
+        <img
+          alt="Mostones_on_Instagram"
+          className="social-icon"
+          src="test-file-stub"
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="content has-text-centered has-background-black has-text-white-ter"
+  >
+    <div
+      className="container has-background-black has-text-white-ter"
+    >
+      <div
+        className="columns"
+      >
+        <div
+          className="column is-4"
+        >
+          <ul
+            className="menu-list"
+          >
+            <li>
+              <a
+                className="navbar-item"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                className="navbar-item"
+                href="/about"
+              >
+                About
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="column is-4"
+        >
+          <ul
+            className="menu-list"
+          >
+            <li>
+              <a
+                className="navbar-item"
+                href="/blog"
+              >
+                Letzte Einträge
+              </a>
+            </li>
+            <li>
+              <a
+                className="navbar-item"
+                href="/contact"
+              >
+                Kontakt
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="column is-4"
+        >
+          <ul
+            className="menu-list"
+          >
+            <li>
+              <a
+                className="navbar-item"
+                href="/booking"
+              >
+                Booking
+              </a>
+            </li>
+            <li>
+              <a
+                className="navbar-item"
+                href="#"
+              >
+                Datenschutz
+              </a>
+            </li>
+            <li>
+              <a
+                className="navbar-item"
+                href="#"
+              >
+                Impressum
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="column"
+  >
+    <div
+      className="has-text-centered"
+    >
+      <p>
+        © mosTones 2019
+      </p>
+    </div>
+  </div>
+</footer>
+`;

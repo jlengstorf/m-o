@@ -1,0 +1,5 @@
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faSignInAlt, faSignOutAlt, faCalendarAlt, faCalendarPlus, faMoneyBillAlt, faEnvelope, faPhone, faPhoneSquare, faMobileAlt, faShoppingCart, faHouseDamage, faEdit, faSearch, faPaperPlane, faChevronCircleUp, faCaretDown, faTimes, faDungeon, faUserSecret, faQuestionCircle, faCookieBite, faStickyNote, faCheck, faUser, faUsers, faShuttleVan, faMinus, faPlus, faBinoculars } from '@fortawesome/free-solid-svg-icons'
+import { far, faUserCircle, faArrowAltCircleRight, faArrowAltCircleLeft, faCheckSquare } from '@fortawesome/free-regular-svg-icons'
+
+library.add(faSignInAlt, faSignOutAlt, faCalendarPlus, faMoneyBillAlt, faEnvelope, faPhone, faPhoneSquare, faMobileAlt, faShoppingCart, faHouseDamage, faEdit, faSearch, faPaperPlane, faChevronCircleUp, faCaretDown, faTimes, faDungeon, faUserSecret, faQuestionCircle, faCookieBite, faStickyNote, faCheck, faUser, faUsers, faUserCircle, faCalendarAlt, faArrowAltCircleRight, faArrowAltCircleLeft, faCheckSquare, faShuttleVan, faMinus, faPlus, faBinoculars)

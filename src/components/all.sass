@@ -1,0 +1,372 @@
+@import "~bulma/sass/utilities/initial-variables"
+
+// @import url('https://fonts.googleapis.com/css?family=Roboto')
+
+
+// Config vars
+$brand: #347738
+// $brand: #4b5320
+$brand-invert: #fff
+// $primary: $brand
+$primary: #A39976
+$primary-invert: $brand-invert
+// $primary-invert: #A39976
+$body-color: #333
+$black: #2b2523
+$title-color: #347738
+// $title-color: #A39976
+// $title-color: #4b5320 // Army green
+$subtitle-color: #000000
+$tag-color: white
+$navbar-breakpoint: 834px
+$family-primary: 'Montserrat'
+
+
+.has-hyphens
+  hyphens: auto
+  -webkit-hyphens: auto
+  -moz-hyphens: auto
+
+.has-hyphens-justified
+  hyphens: auto
+  -webkit-hyphens: auto
+  -moz-hyphens: auto
+  text-align: justify
+
+.link
+  a
+    color: $brand
+    &:hover
+      color: $brand
+      opacity: 0.8
+
+
+.active
+  color: $primary !important
+  background: none !important
+// $button-focus-box-shadow-size: 0px 8px 15px rgba(0 0 0 0.1)
+// $button-focus-box-shadow-color: rgba(0 0 0 1)
+.text-shadow-red
+  text-shadow: 2px 3px 5px #347738
+
+.text-shadow
+  text-shadow: 2px 3px 5px #000000
+
+.content
+  h3
+    color: white !important
+
+
+label
+  color: white !important
+
+
+// .room-link
+//   position: absolute
+//   z-index: 2000
+//   top: 50%
+//   left: 50%
+//   transform: scale(0)
+//   transition: all 0.3s linear
+//
+//
+// .img-container .room-link:hover
+//   transform: translate(-50%, -50%) scale(1)
+//
+//
+// .img-container:hover
+//   background: rgba(0, 0, 0, 0.8)
+//
+// .img-container:hover img
+//   opacity: 0.3
+//
+//
+// .img-container:hover .room-link
+//   transform: translate(-50%, -50%) scale(1)
+//
+
+
+
+
+// #contact-bg
+//   overflow: hidden
+//   position: relative
+//   background: -moz-linear-gradient(60deg, rgba(23, 185, 230,1.0) 0%, rgba(161, 23, 230,1.0) 100%)
+//   background: -webkit-linear-gradient(60deg, rgba(23, 185, 230,1.0 ) 0%,rgba(161, 23, 230,1.0) 100%)
+//   background: linear-gradient(60deg, rgba(23, 185, 230,1.0) 0%,rgba(161, 23, 230,1.0) 100%)
+//
+// #contact-bg::before
+//   content: ''
+//   display: block
+//   height: 833px
+//   min-width: 2000px
+//   pointer-events: none
+//   position: absolute
+//   width: 100%
+//   z-index: 10
+//   top: 0
+//   left: 50%
+//   -moz-transform: translateX(-50%)
+//   -ms-transform: translateX(-50%)
+//   -webkit-transform: translateX(-50%)
+//   transform: translateX(-50%)
+//   background-repeat: no-repeat
+//   background-size: cover
+//   background-position: center
+//   background: url('../img/Unknown.svg') no-repeat scroll center center/100% 100% border-box
+//
+// #contact-bg::after
+//   content: ''
+//   display: block
+//   height: 1169px
+//   min-width: 2000px
+//   pointer-events: none
+//   position: absolute
+//   left: 50%
+//   -moz-transform: translateX(-50%)
+//   -ms-transform: translateX(-50%)
+//   -webkit-transform: translateX(-50%)
+//   transform: translateX(-50%)
+//   width: 100%
+//   z-index: 10
+//   bottom: 0
+//   margin-top: -3.125rem
+//   background-repeat: no-repeat
+//   background-size: cover
+//   background-position: center
+//   background: url('../img/Unknown-2.svg') no-repeat scroll center center/100% 100% border-box
+
+
+
+.button
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
+  transition: all .5s linear
+  margin-bottom: 2rem
+
+.tag
+  a
+    color: white
+
+
+
+.navbar
+  // background: transparent !important
+  a
+    color: #fff
+  // a
+  //   @media(max-width: 833px)
+  //     color: #fff
+.navbar-scroll-title
+  @media(max-width: 478px)
+    display: none
+
+
+.navbar .navbar-menu
+  box-shadow:none !important
+
+//
+// div#navMenu.navbar-menu
+//   margin: 0 auto !important
+
+#navMenu.navbar-menu.is-active
+  background: rgba(0, 0, 0, 0.9)
+  height: 93vh
+
+
+.tile
+  min-height: 250px !important
+
+
+
+
+// Helper Classes
+.full-width-image-container
+  width: 100%
+  height: 100vh
+  // position: relative
+  display: grid
+  // left: 50%
+  // right: 50%
+  // margin: 2em -50vw
+  background-size: cover
+  background-position: center center
+  // display: flex
+  // justify-content: center
+  // align-items: center
+
+.full-width-image
+    width: 100%
+    height: 100vh
+    background-size: cover
+    background-position: center center
+    background-repeat: no-repeat
+
+
+
+
+
+// .btn
+//     display: inline-block;
+//     padding: 12px 16px 10px;
+//     font-size: 18px;
+//     font-size: 1rem;
+//     line-height: 1.25;
+//     background-color: #fff;
+//     border-radius: .25rem;
+//     text-decoration: none;
+//     font-weight: 700;
+//     color: $brand
+//     text-align: center;
+//     -webkit-box-shadow: inset 0 0 0 2px $brand;
+//     box-shadow: inset 0 0 0 2px $brand;
+//     -webkit-transition: all .15s ease;
+//     transition: all .15s ease;
+
+// .margin-top-0
+//   margin-top: 0 !important
+
+
+a.navbar-item:hover
+    color: $brand !important
+
+
+.navbar-item .icon
+  color: $primary
+// Override for use of svg's from https://simpleicons.org/
+
+// .icon svg
+//   width: 1.5rem
+//   height: 1.5rem
+//   fill: currentColor
+.navbar-brand .navbar-item.logo
+  padding: 0 1rem
+footer.footer
+  padding: 3rem 0rem 0rem
+  background-color: transparent
+  a.navbar-item:hover
+      color: $brand !important
+      background-color: transparent
+
+.get-in-touch
+  margin: 3rem 0rem
+
+// svg.get-in-touch-icon
+//   color: $brand
+//   width: 5rem
+//   display: block
+//   margin: auto
+//   margin-bottom: 2rem
+
+
+//Menu overrides
+$menu-item-color: $white-ter
+$menu-item-hover-color: $black !important
+$menu-item-hover-background-color: $black
+$menu-item-active-color: $brand-invert
+$menu-item-active-background-color:	$brand-invert
+$menu-list-border-left: 1px solid $brand-invert
+$menu-label-color: $white-ter
+$navbar-item-color: #fff
+
+
+.navbar-burger:hover
+  background-color: $brand
+
+.navbar-burger.burger.is-active
+  background-color: $brand
+  span
+    background-color: $white
+
+.navbar-burger
+  span
+    background-color: $white
+    color: $brand
+    width: 20px !important
+    height: 3px !important
+
+.menu-label
+  font-size: 1em !important
+  text-align: left
+.menu-list
+  list-style: none !important
+  text-align: left
+
+
+.social-icon
+  width: 2rem
+  color: white
+
+
+// .get-in-touch-social
+//   margin: 4rem
+
+
+.get-in-touch-social > a:not(:last-child)
+  // display: inline-block
+  margin-right: 4rem
+
+.get-in-touch-social-footer > a:not(:last-child)
+  // display: inline-block
+  margin-right: 4rem
+
+
+.navigation
+  position: absolute
+  margin: 0 auto
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+
+
+#navMenu.navbar-menu.is-active
+  a
+    font-size: 1.5rem
+    border-top: 1px solid $black
+    border-bottom: 1px solid $black
+
+
+//
+// .cover-figure
+//     max-width: 235px
+//     max-height: 235px
+//
+//     //position: relative
+//     display: inline-block
+//     margin-bottom: 15px
+//     // background: #101113
+//     -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.5)
+//     -moz-box-shadow: 0 0 4px rgba(0,0,0,0.5)
+//     box-shadow: 0 0 4px rgba(0,0,0,0.5)
+
+.videoWrapper
+	position: relative
+	padding-bottom: 56.25%
+	padding-top: 25px
+	height: 0
+
+
+.videoWrapper iframe
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+
+
+// Map
+.mapWrapper
+	position: relative
+	padding-bottom: 56.25%
+	padding-top: 25px
+	height: 0
+
+
+.mapWrapper iframe
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+
+@import "~bulma"
