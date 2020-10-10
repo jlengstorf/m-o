@@ -87,7 +87,6 @@ class Optiken extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
-    console.log(posts);
     return (
       <section
         id="optiken"
@@ -130,10 +129,10 @@ class Optiken extends React.Component {
                               <div className="button is-medium is-primary room-link">
                                 Details
                               </div>
-
+                              {console.log(post.frontmatter)}
                               <Img
                                 fluid={
-                                  post.frontmatter.image.childImageSharp.fluid
+                                  post.frontmatter.image?.childImageSharp?.fluid
                                 }
                                 alt={post.frontmatter.title}
                                 style={{ width: 'auto' }}
