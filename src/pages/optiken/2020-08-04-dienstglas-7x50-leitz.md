@@ -13,6 +13,8 @@ vehicleData: |-
   Hersteller: Ernst LEITZ GmbH WETZLAR 
 
   Herkunft: Deutschland
+
+  test
 featured: Ja
 category: Dienstgläser
 ---
