@@ -87,6 +87,7 @@ class Optiken extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
+    console.log(posts);
     return (
       <section
         id="optiken"
@@ -191,7 +192,7 @@ export default () => (
                       quality: 92
                       srcSetBreakpoints: [350, 700, 1050, 1400]
                     ) {
-                      ...GatsbyImageSharpFluid
+                      ...GatsbyImageSharpFluid_withWebp
                       presentationWidth
                     }
                   }
